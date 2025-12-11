@@ -1,0 +1,289 @@
+		@font-face {
+		    font-family: 'Galmuri14';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/Galmuri14.woff2') format('woff2');
+		    font-weight: normal;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'BookkGothic';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkGothic-Lt.woff2') format('woff2');
+		    font-weight: 300;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'BookkGothic';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkGothic-Bd.woff2') format('woff2');
+		    font-weight: 700;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'Joseon100Years';
+		    src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/ChosunCentennial.woff2') format('woff2');
+		    font-weight: normal;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'ChangwonDangamRounded';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/ChangwonDangamRound-Regular.woff2') format('woff2');
+		    font-weight: normal;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'Paperozi';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2');
+		    font-weight: 300;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'Paperozi';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+		    font-weight: 500;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'Paperozi';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+		    font-weight: 700;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'Yidstreet';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+		    font-weight: 700;
+		    font-display: swap;}
+
+		@font-face {
+		    font-family: 'SlowGothic';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/neurimboGothicRegular.woff2') format('woff2');
+		    font-weight: normal;
+		    font-display: swap;}
+
+
+		body{cursor: url('./img/cursurant.png') 24 24, auto;}
+		body,div,h1,h2,h3,h4,h5,h6,p,ol,ul{margin: 0; word-break: keep-all;}
+		header{padding-top: 200px; padding-bottom: 1000px}
+		section{padding-top: 100px; padding-bottom: 100px}
+		h1,h2,h3,h4,h5,h6{line-height: 1.5; letter-spacing: 0.6}
+		p{line-height: 1.2}
+		ul{list-style: none;}
+		ul li a{text-decoration: none;
+				display: block;
+				padding: 15px 12px;
+				color: #EEE}
+		ul li a:hover{background: white; color: black; transition: all 1s}
+		footer{padding: 80px 50px 10px 50px}
+
+
+		.flex{display: flex; justify-content: space-between;}
+		.navbar{position: fixed; width: 100%; z-index: 100}
+		.contact a {
+ 		color: inherit;       
+  		text-decoration: none;}
+
+	/*꾸밈 요소*/
+		.x-over{overflow-x: hidden}
+		.center{text-align: center; margin: auto;}
+		.wid{width: 1000px; margin: 0 auto;}
+		.widall{width: 1600px; margin: 0 auto;}
+		.pdbt200{padding-bottom: 200px}
+		.pdbt150{padding-bottom: 150px}
+		.pdbt{padding-bottom: 100px}
+		.pdtp{padding-top: 100px}
+		.pdtp200{padding-top: 200px}
+		.pdtp400{padding-top: 400px}
+		.pdtp900{padding-top: 900px}
+		.pdtb{padding-top: 300px; padding-bottom: 300px}
+		.pdlr{padding: 5px 15px 5px 120px}
+		.pdre{padding: 0}
+		.white{color: #EEE}
+		.grey{color: grey}
+		.lt{text-align: left}
+		.rt{text-align: right}
+		.ct{text-align: center;}
+		.wrap{position: relative;}
+		.ab{position: absolute;}
+		.bgwh{background-color: #FFF}
+		.bgwh80{background-image: url('./img/whitegra.png');}
+		.bgwh65{background-color: white; opacity: 65%}
+		.bgbk{background-color: #000}
+
+	/*이미지*/
+		.antbg{background-image: url('./img/ant.png');
+			background-size: 100%;
+			background-attachment: fixed;
+			background-color: rgba(255,255,255,0.5);
+  			background-blend-mode: lighten;}
+		.bg1{background-image: url('./img/underbackground.png'); background-size: cover;}
+		.fants{top: 120px; left: 370px;
+				animation: jump3 0.5s steps(2) infinite alternate;}
+		.lant{top: 270px; left: 370px;
+				animation: shake 0.5s linear alternate infinite;}
+		.rant{top: 720px; left: 500px;
+				animation: shake 0.8s linear alternate infinite;}
+		.ants2{position: absolute;
+							left: 800px; top: 850px}
+		.noldhh{position: absolute; top: 1200px}
+		.nold{position: absolute; top: 1440px; left: 80px;
+				animation: jump 0.15s steps(2) infinite alternate;}
+		.crack{background-image: url('./img/cracking.png');
+				background-repeat: no-repeat;}
+		.flat{position: absolute; top: 600px}
+		.follow{left: 520px; top: 800px; font-size: 30px}
+		.shout{left: 400px; top: 740px;}
+		.ants3{top: 10px; width: 1530px}
+		.redglow{left: 650px; top: 1350px;
+				animation: blink 2s ease-in-out infinite;}
+		.sign{right: 0; top: 695px}
+		.antmill{background-image: url('./img/antmill.gif');
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;}
+		.redline{left: 745px; top: 1710px}
+		.zing{top: 1455px; width: 1520px;
+				animation: blink2 4s infinite;}
+		.peromon{top: 2400px; left: 105px; width: 1300px;
+				animation: blink2 4s infinite;
+				
+				filter: drop-shadow(0 0 20px rgba(255, 0, 0, 0.7))}
+		.redcircle{bottom: 270px; left: 770px;
+				filter: drop-shadow(0 0 40px rgba(255, 0, 0, 0.7))}
+		.redbg{background-image: url('./img/redbackground.png');
+				background-size: cover;}
+		.redant{right: -300px; top: 1000px;
+				 animation: float 2s ease-in-out infinite;}
+		.gold{width: 600px; top: 1230px; left: -140px;
+				animation: rot 10s infinite linear;}
+		.about{top: 1300px; left: 380px}
+		.ant4{bottom: 0}
+		.antsingle{left: 510px; top: -100px;
+				animation: shake2 0.08s infinite alternate linear;}
+		.ant5{top: 170px; left: 530px}
+		.antsingle2{top: 360px; left: 600px;
+				animation: shake 1.2s infinite alternate;}
+		.antsingle3{top: 550px; left: 800px;
+				animation: jump4 0.8s steps(2) infinite alternate}
+		.gohell{top: -110px; left: 280px; width: 300px;
+				animation: shake3 0.08s infinite alternate linear;}
+		.dontknow{top: 280px; left: 820px; width: 150px}
+		.dumb{top: 750px; left: 630px; width: 200px}
+		.undergr{background-image: url('./img/underground.png');
+				background-repeat: no-repeat;
+				background-size: 1500px}
+		.anthouse{z-index: 1; top: 295px; left: -150px}
+		.room1{top: 470px; left: -30px; width: 500px; z-index: 2}
+		.room2{top: 1090px; left: 600px; width: 500px; z-index: 2}
+		.room3{top: 2020px; left: 300px; width: 540px; z-index: 2}
+		.bdots{top: -980px; width: 60px}
+		.balloon{top: -160px; right: 780px; width: 530px;
+				animation: bounce 2s infinite cubic-bezier(0.3, 0.66, 0.6, 0.86)}
+		.bigant{top: -300px; right: -530px}
+
+
+	/*애니메이션*/
+		@keyframes shake{
+			from{transform: rotateZ(-30deg)};
+			to{transform: rotateZ(30deg);}
+		}
+
+		@keyframes shake2{
+				from{left: 503px}
+				to{left: 517px}
+		}
+
+		@keyframes shake3{
+				from{left: 273px}
+				to{left: 287px}
+		}
+
+		@keyframes float {
+			  0%   {transform: translateY(0); }
+			  50%  {transform: translateY(20px); }
+			  100% {transform: translateY(0); }
+		}
+
+		@keyframes jump {
+			  from{transform: translateY(0); }
+			  to{transform: translateY(20px); }
+		}
+
+		@keyframes jump2 {
+			  0%   { top: 800px; }    
+			  15%  { top: 790px; }
+			  30%  { top: 800px; }
+			  45%  { top: 790px; }
+			  100% { top: 790px; }
+		}
+
+		@keyframes jump3 {
+			  from{left: 366px}
+			  to{left: 374px}
+		}
+
+		@keyframes jump4 {
+			  0%   { top: 560px; }    
+			  15%  { top: 550px; }
+			  30%  { top: 560px; }
+			  45%  { top: 550px; }
+			  100% { top: 550px; }
+		}
+
+		@keyframes bounce{
+				0%{top: -160px}
+				30%{top: -130px}
+				45%{top: -160px}
+				100%{top: -160px}
+		}
+
+		@keyframes blink {
+			  0%   {transform: scale(1); }
+			  50%  {transform: scale(1.4); }
+			  100% {transform: scale(1); }
+		}
+
+		@keyframes blink2 {
+			  0%   {transform: scale(1); }
+			  50%  {transform: scale(1.07); opacity: 70%}
+			  100% {transform: scale(1); }
+		}
+
+		@keyframes rot {
+				from{transform: rotateZ(0deg);}
+				to{transform: rotateZ(360deg)}
+		}
+
+	/*폰트*/
+		.footerbig{font-family: 'SlowGothic'; font-size: 90px; padding-top: 25px; letter-spacing: -7px}
+		.footer30{font-family: 'Paperlogy-5Medium'; font-size: 30px; padding-bottom: 20px}
+		.footer14{font-family: 'Paperlogy-3Light';font-size: 14px; padding: 10px 0px; line-height: 1.5}
+		.header1{font-family: 'Yidstreet';font-size: 120px;
+			padding-top: 100px}
+		.header2{font-family: 'Paperlogy-7Bold';font-size: 4rem;
+			padding-top: 600px; padding-bottom: 150px;}
+		.middle{font-family: 'BookkGothic-Bds'; font-size: 50px;
+			line-height: 1.6}
+		.middle30{font-family: 'BookkGothic-Bds';font-size: 30px; line-height: 1.6}
+		.middleL{font-family: 'BookkGothic-Lt'; font-size: 50px}
+		.p{font-family: 'BookkGothic-Lt';
+			font-size: 16px;
+			line-height: 1.5}
+		.p1{padding-top: 80px;
+			padding-bottom: 80px;
+			font-size: 1.5rem}
+		.p2{font-family: 'BookkGothic-Lt';
+			font-size: 26px;
+			line-height: 1.5;
+			padding-top: 85px}
+
+	/*글자 요소*/
+		.mukee{top: 270px; left: 200px; font-family: 'Galmuri14'}
+		.zip{top: 720px; left: 710px;
+			font-family: 'ChosunCentennial'}
+		.queen{top: 850px; left: 140px; font-family: 'Paperlogy-3Light'}
+		.peromonroad{top: 3300px;left: 840px;
+			font-family: 'BookkGothic-Lt';
+			font-size: 28px;
+			line-height: 1.5;}
+		.cantsee{top: 1600px; right: 400px; width: 200px}
+		.bracelet{top: 1400px}
+		.bigger{top: 2000px; left: 360px; right: 360px}
+		.hell{top: 2700px; right: 0}
