@@ -134,7 +134,7 @@
 		.redglow{left: 650px; top: 1350px;
 				animation: blink 2s ease-in-out infinite;}
 		.sign{right: 0; top: 695px}
-		.antmill{background-image: url('./img/antmill.gif');
+		.antmill{background-image: url('antmill.gif');
 				background-attachment: fixed;
 				background-repeat: no-repeat;
 				background-size: cover;}
